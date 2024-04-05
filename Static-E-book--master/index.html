@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
+      </script> 
+</head>
+
+<body>
+    <img src="images/background.jpg" class="bg">
+  <div id="actualcon">
+    <div id="nav">
+        <img src="images/kmitlogo.jpg" alt="Avatar" class="logo" align="left" width=200 height=200>
+    <h1 id="main"><center>SANLEY's Big Book Shelf</center></h1>
+    </div>
+    <center>
+        <a href="content.html" data-aos="fade-right" data-aos-duration="2000" target="f2" class="button">Home</a>
+        <a href="registration_form.html" data-aos="fade-right" data-aos-duration="2000" target="f2" class="button">Registration</a>
+        <a href="catlouge.html" target="f2" data-aos="fade-right" data-aos-duration="2000" class="button">Catalogue</a>
+        <a href="cart.html"target="f2" data-aos="fade-right" data-aos-duration="2000" target="f2" class="button">Cart</a>
+        <button class="button0" data-aos="fade-right" data-aos-duration="2000" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+  <div id="id01" class="modal">
+  
+  <form class="modal-content animate" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images/logo.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit" class="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+ 
+  </div>
+    </center>
+    
+    <iframe src="side.html" width=350px height=500px frameBorder="0" name="f1">
+
+    </iframe>
+    <iframe src="content.html" width= 1100px  height=1000px; align="right" frameBorder="0" name="f2">
+
+    </iframe>
+    
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init({
+
+    })
+    </script>   
+    
+  </body>
+</html> 

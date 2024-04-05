@@ -1,0 +1,206 @@
+*{
+    margin-left:5px;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+            /*----------CSS GRID------------*/
+#cse {
+    display:grid;
+    grid-template-columns:1fr;
+    grid-row-gap:20px;
+   /* position: relative;*/
+}
+#ece{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-row-gap:20px;
+    /*position: relative;*/
+
+}
+#eie{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-row-gap:20px;
+   /* position: relative;*/
+
+}
+.book1,.book2,.book3,.book4,.book5,.book6
+{
+    display: grid;
+    grid-template-columns: auto 6fr 2fr;
+    /*position: relative;*/
+}
+       /*----------END-----------*/
+
+.book1{
+    margin-top:-7px;
+}
+.book6{
+    margin-bottom:20px;
+}
+.image
+{
+    margin-bottom:0px;
+    box-shadow: 5px 5px 5px rgba(7, 7, 7, 0.6);
+    border-radius:5px;
+    width:170px;
+    height: 170px;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    padding:2px;
+}
+.info
+{
+    margin-top:30px;
+    margin-left:3px;
+    box-sizing:border-box;
+    margin-left:0px;
+}
+.button{
+    width:150px;
+    height: 50px;
+    margin-top:25px;
+    background: none;
+    background:linear-gradient(to bottom,rgb(230, 157, 75), rgb(252, 137, 6));
+    text-align: center;
+    transition: 0.3s all;
+    border-radius:5px;
+    margin-left:0px;
+    border:1px inset rgb(0,0,0,0.7);
+
+}
+.button:hover{
+   width:159px;
+   height: 55px;
+   box-shadow:3px 3px 3px rgba(0,0,0,0.5);
+   border:2px inset rgb(0,0,0,0.7);
+}
+
+
+                    /*--------FORMATTING TEXT---------*/                    
+ul{
+    list-style-type: none;
+}
+.price{
+    width:100%;
+    height:30px;
+    text-align: center;
+    justify-content: center;
+    background-color:rgba(44, 53, 48, 0.9);
+    color:rgb(206, 194, 20);
+    text-shadow: 1px 1px 1px black;
+    font-size:25px;
+    font-family: 'Russo One', sans-serif;
+    padding-top: 5px;
+    border-radius:4px;
+    margin-bottom: 20px;
+    margin-top:0px;
+    letter-spacing: 1px;
+    border:1px solid rgb(0,0,0,0.7);
+}
+.name{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500px;
+    font-style: unset;
+    /*color:rgb(241, 90, 20);*/
+    text-transform: capitalize;
+    font-size:22px;
+   /* background: linear-gradient(to bottom,rgb(145, 60, 102),rgb(224, 10, 117));*/
+    background-color: rgb(238, 231, 231);
+    display:inline-block;
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 1px;
+
+}
+.author,.publisher,.paperback{
+    width:500px;
+    font-family: 'Poppins', sans-serif;
+    font-size:16x;
+    color: floralwhite;
+    letter-spacing: 1px;
+    background:linear-gradient(to right,rgb(116, 113, 113),black);
+    padding-top:3px;
+    font-weight: bold;
+    
+}
+span{
+    font-size:14px;
+    color:white;
+    font-weight: normal;
+}
+                      /*----------END------------*/
+
+/*-----------registration page------------*/
+
+
+
+                      .w3-container,.w3-panel{
+                        padding:0.01em 16px;
+                        float: center;
+                        margin-top:16px;
+                        margin-bottom:16px;
+                        border-radius: 10px;
+                      }
+                        
+                    .w3-card{
+                      box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+                    }
+                .w3-card-4{
+                  box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+                  
+                }
+                
+                .w3-white{
+                  color:#000!;
+                  background-color:#fff
+                }
+                .w3-light-grey{
+                  color:#000;
+                  background-color:			#DCDCDC
+                }
+                .w3-ul{
+                  list-style-type:none;padding:0;margin:0
+                }.w3-ul li{
+                  padding:8px 16px;
+                  border-bottom:1px solid rgb(139, 129, 129)
+                }.w3-ul li:last-child{
+                  border-bottom:none
+                }
+
+                .textbox{
+                    width:50%;
+                    overflow: hidden;
+                    font-size: 20px;
+                    padding: 4px 0;
+                    margin: 8px 0;
+                    border-bottom: 1px solid #4caf50;
+                    
+                }
+                .textbox input{
+                    border: none;
+                    outline: none;
+                    font-size: 18px;
+                    margin: 10px;
+                }
+                .textb{
+                    width:100%;
+                    font-size: 20px;
+                    padding: 8px 0;
+                    margin: 8px 0;
+                }
+                .textb textarea{
+
+                    font-size: 18px;
+                    margin: 10px;
+                }
+                .submit, .reset{
+                    width:80px;
+                    height:50px;
+                    padding: 3px;
+                    font-size: 18px;
+                    background-color: rgb(139, 129, 129);
+                }
+                    
